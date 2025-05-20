@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>It's Alex</title>
+    <link rel="shortcut icon" href="assets/letter-a.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/core-style.css" />
+    <!-- image preload -->
+    <link rel="preload" as="image" href="assets/img-of-me-5.webp" />
+  </head>
+  <body>
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+    <header>
+      <section id="hero-358">
+        <div class="cs-container">
+          <div class="cs-flex-group">
+            <span class="cs-topper">ALEX BEERY</span>
+            <h1 class="cs-title">Sono un Web Developer</h1>
+            <p class="cs-text">
+              Realizzo siti web senza Wordpress o costruttori, scritti 100% a
+              mano. Specializzato nel Front-end in linguaggi JavaScript, HTML e
+              CSS.
+            </p>
+            <div class="cs-button-group">
+              <a onclick="scrollToSection('cta-262')" class="cs-button-solid"
+                >Contattami</a
+              >
+              <script>
+                function scrollToSection(sectionId) {
+                  document
+                    .getElementById(sectionId)
+                    .scrollIntoView({ behavior: "smooth" });
+                }
+              </script>
+            </div>
+          </div>
+          <div class="cs-image-group">
+            <!--Icon Cirlce Group-->
+            <picture class="cs-icon-wrapper">
+              <p class="cs-icon">Open to Work!</p>
+            </picture>
+
+            <!-- SVG Paint Splash-->
+            <img
+              class="cs-splash"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Hero/paint-splash.svg"
+              alt="icon"
+              width="792"
+              height="616"
+              aria-hidden="true"
+            />
+
+            <picture class="cs-person">
+              <!-- Mobile Image -->
+              <source
+                media="(max-width: 600px)"
+                srcset="assets/img-of-me-5-m.webp"
+              />
+              <!-- Desktop Image -->
+              <source
+                media="(min-width: 601px)"
+                srcset="assets/img-of-me-5.webp"
+              />
+              <!-- Fallback Image -->
+              <img
+                aria-hidden="true"
+                decoding="async"
+                src="assets/img-of-me-5.webp"
+                alt="me"
+                width="831"
+                height="774"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- ============================================ -->
+    <!--                  Competences                 -->
+    <!-- ============================================ -->
+
+    <section id="services-468">
+      <div class="cs-container">
+        <h1 class="cs-title-white">Le mie Competenze</h1>
+        <ul class="cs-card-group">
+          <li class="cs-item">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              src="assets/js-icon.png"
+              loading="lazy"
+              decoding="async"
+              alt="icon"
+              width="90"
+              height="90"
+            />
+            <h3 class="cs-h3">JavaScript</h3>
+          </li>
+          <li class="cs-item">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              src="assets/html-icon.png"
+              loading="lazy"
+              decoding="async"
+              alt="icon"
+              width="90"
+              height="90"
+            />
+            <h3 class="cs-h3">HTML</h3>
+          </li>
+          <li class="cs-item">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              src="assets/css-icon.png"
+              loading="lazy"
+              decoding="async"
+              alt="icon"
+              width="90"
+              height="90"
+            />
+            <h3 class="cs-h3">CSS</h3>
+          </li>
+          <li class="cs-item">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              src="assets/react-icon.png"
+              loading="lazy"
+              decoding="async"
+              alt="icon"
+              width="90"
+              height="90"
+            />
+            <h3 class="cs-h3">React.js</h3>
+          </li>
+          <li class="cs-item">
+            <img
+              class="cs-icon"
+              aria-hidden="true"
+              src="assets/bootstrap-icon.png"
+              loading="lazy"
+              decoding="async"
+              alt="icon"
+              width="90"
+              height="90"
+            />
+            <h3 class="cs-h3">Bootstrap</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                  Projects                    -->
+    <!-- ============================================ -->
+
+    <section id="projects-2196">
+      <div class="cs-container">
+        <div class="cs-content">
+          <span class="cs-topper">PORTFOLIO</span>
+          <h2 class="cs-title">I miei Progetti</h2>
+          <p class="cs-text">
+            Una selezione di alcuni progetti web sviluppati con creatività,
+            funzionalità e un occhio attento alla User Experience.
+          </p>
+        </div>
+        <ul class="cs-card-group">
+          <!-- 1° image -->
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="assets/display-3.png"
+                  alt="person"
+                  width="305"
+                  height="320"
+                />
+              </picture>
+            </div>
+            <div class="cs-info">
+              <span class="cs-name">🌍 Travel Vlog</span>
+              <p class="cs-project-description">
+                Una WebPage responsive creata con una fusione tra Bootstrap
+                customizzato e la libreria JavaScript GSAP.
+              </p>
+              <div class="cs-button-group">
+                <span
+                  ><a
+                    href="https://example-site-3.its-alex.com/"
+                    target="_blank"
+                    class="cs-button-solid"
+                    >Visita il sito</a
+                  >
+                  <a
+                    href="https://github.com/A1exander08/example-site-3"
+                    target="_blank"
+                    class="cs-button-solid"
+                    >Git Hub</a
+                  >
+                </span>
+              </div>
+            </div>
+          </li>
+          <!-- 2° image -->
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="assets/display-2.png"
+                  alt="person"
+                  width="305"
+                  height="320"
+                />
+              </picture>
+            </div>
+            <div class="cs-info">
+              <span class="cs-name">Stare Awkward Course 👀</span>
+              <p class="cs-project-description">
+                Una WebPage responsive con un Bootstrap customizzato e un
+                sottile filo di umorismo.
+              </p>
+              <div class="cs-button-group">
+                <span
+                  ><a
+                    href="https://example-site-2.its-alex.com/"
+                    target="_blank"
+                    class="cs-button-solid"
+                    >Visita il sito</a
+                  >
+                  <a
+                    href="https://github.com/A1exander08/example-site-2"
+                    target="_blank"
+                    class="cs-button-solid"
+                    >Git Hub</a
+                  >
+                </span>
+              </div>
+            </div>
+          </li>
+          <!-- 3° image -->
+          <li class="cs-item">
+            <div class="cs-image-group">
+              <picture class="cs-picture">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  src="assets/display-1.png"
+                  alt="person"
+                  width="305"
+                  height="320"
+                />
+              </picture>
+            </div>
+            <div class="cs-info">
+              <span class="cs-name">🪐Space Travel Company</span>
+              <p class="cs-project-description">
+                Una WebPage responsive creata sfruttando la libreria Bootstrap e
+                un pò di codice JS per il testo dinamico.
+              </p>
+              <div class="cs-button-group">
+                <span
+                  ><a
+                    href="https://example-site-1.its-alex.com/"
+                    target="_blank"
+                    class="cs-button-solid"
+                    >Visita il sito</a
+                  >
+                  <a
+                    href="https://github.com/A1exander08/example-site-1"
+                    target="_blank"
+                    class="cs-button-solid"
+                    >Git Hub</a
+                  >
+                </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--              Call To Action                  -->
+    <!-- ============================================ -->
+
+    <section id="cta-262">
+      <div class="cs-container">
+        <div class="cs-content">
+          <h2 class="cs-title">
+            Cerchi un Web Developer da Inserire nel Tuo Team?
+          </h2>
+          <span class="cs-header"
+            >Contattami e scopriamo insieme se posso fare al caso tuo 🤙</span
+          >
+        </div>
+        <div id="contact-strip-719">
+          <ul class="cs-stat-group">
+            <li class="cs-item">
+              <picture class="cs-picture">
+                <img
+                  class="cs-icon"
+                  src="assets/phone-icon.png"
+                  alt="icon"
+                  width="40"
+                  height="40"
+                  loading="lazy"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              </picture>
+              <div class="cs-flex-group">
+                <span class="cs-header">chiama quando vuoi</span>
+                <span class="cs-address">391 348 15 06</span>
+              </div>
+            </li>
+            <li class="cs-item">
+              <picture class="cs-picture">
+                <img
+                  class="cs-icon"
+                  src="assets/letter-icon.png"
+                  alt="icon"
+                  width="40"
+                  height="40"
+                  loading="lazy"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              </picture>
+              <div class="cs-flex-group">
+                <span class="cs-header">manda un Email</span>
+                <a href="mailto:alex.beery08@gmail.com" class="cs-link"
+                  >alex.beery08@gmail.com</a
+                >
+              </div>
+            </li>
+            <li class="cs-item">
+              <picture class="cs-picture">
+                <img
+                  class="cs-icon"
+                  src="assets/linkedin-icon.png"
+                  alt="icon"
+                  width="40"
+                  height="40"
+                  loading="lazy"
+                  decoding="async"
+                  aria-hidden="true"
+                />
+              </picture>
+              <div class="cs-flex-group">
+                <span class="cs-header">LinkedIn</span>
+                <a
+                  href="https://www.linkedin.com/in/alex-beery-95708233a/"
+                  target="_blank"
+                  class="cs-link"
+                  >visita il mio profilo</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+        <picture class="cs-background"> </picture>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+    <footer id="cs-footer-108">
+      <div class="cs-container">
+        <span class="cs-copyright"
+          >© It's Alex 2024-2025 | All rights reserved |
+          <a href="https://its-alex.com/termini-e-condizioni/" target="_blank"
+            >Termini e Condizioni</a
+          >
+        </span>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
